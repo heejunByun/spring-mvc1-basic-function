@@ -1,4 +1,4 @@
-package com.spring.mvc1.basic.function;
+package com.springmvc1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
