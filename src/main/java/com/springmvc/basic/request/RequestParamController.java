@@ -108,7 +108,7 @@ public class RequestParamController {
     @RequestMapping("/model-attribute-v2")
     public String modelAttributeV2(HelloData helloData) { //@ModelAttribute 생략가능하지만 비추
         /**
-         * @ModelAttribute 는 생략할 수 있다.
+         * @ModelAttribute 는 생략할 수 있다. (비추)
          * 그런데 @RequestParam 도 생략할 수 있으니 혼란이 발생할 수 있다.
          * 스프링은 해당 생략시 다음과 같은 규칙을 적용한다.
          * String , int , Integer 같은 단순 타입 = @RequestParam
